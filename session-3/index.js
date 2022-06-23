@@ -30,10 +30,16 @@ console.log("Hey!");
 //     conversation();  
 
 
-    function futureAge(name , age) {
-        let text = "Hey, Im " + name + " and I'll be " + (age + 5) + "in 5 years time!";
-         return text;
-    }
+    // function futureAge(name , age) {
+    //     let text = "Hey, Im " + name + " and I'll be " + (age + 5) + "in 5 years time!";
+    //      return text;
+    // }
 
-    console.log(futureAge("Jason", 6));
+    // console.log(futureAge("Jason", 6));
    
+// => arrow function 
+const add = (x , y) => {
+const result = x + y;
+return result;
+}
+console.log(add(8, 9));
